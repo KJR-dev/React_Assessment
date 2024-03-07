@@ -56,16 +56,16 @@ button {
 }
 
 .hero1 {
-  background: url("image/Banner_1.jpg");
+  background: url("https://qsimpact.org/_next/image?url=%2Fassets%2Fimages%2Fhome%2Fbanner-5.png&w=3840&q=75");
 }
 .hero2 {
-  background: url("image/Banner_2.webp");
+  background: url("https://qsimpact.org/_next/image?url=%2Fassets%2Fimages%2Fcommon%2Fimg.jpg&w=3840&q=75");
 }
 .hero3 {
-  background: url("image/Banner_3.webp");
+  background: url("https://qsimpact.org/_next/image?url=%2Fassets%2Fimages%2Fhome%2Fgda.png&w=3840&q=75");
 }
 .hero4 {
-  background: url("image/Banner_4.webp");
+  background: url("https://qsimpact.org/_next/image?url=%2Fassets%2Fimages%2Fcommon%2Fimgnew.jpg&w=3840&q=75");
 }
 
 .hero {
