@@ -1,0 +1,22 @@
+.cardDiv {
+  width: 99%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.card {
+  width: 23%;
+  height: 98%;
+}
+.imgDiv {
+  height: 70%;
+  width: 100%;
+}
+
+.imgDiv img {
+  height: 171px;
+  width: 305px;
+}

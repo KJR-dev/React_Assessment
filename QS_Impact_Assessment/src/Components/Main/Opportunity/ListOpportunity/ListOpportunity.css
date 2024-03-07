@@ -1,0 +1,49 @@
+.innerDiv {
+  height: 75%;
+  width: 48%;
+  background-color: #ffaf00;
+}
+
+.innerDiv p {
+  margin: 32px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.iconDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.icon {
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  z-index: 1;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  border: 1px solid #ffffff; /* Just for visualization */
+}
+
+.hr {
+  transform: rotate(90deg);
+  color: rgb(255, 255, 255);
+}
+.innerDiv button {
+  height: 60px; /* Set the desired height */
+  width: 150px; /* Set the desired width */
+  margin: 40px;
+}
+
+.icon1 {
+  margin: auto;
+  padding: auto;
+}
+button {
+  color: #ffffff;
+  border: 1px solid white;
+  background-color: #ffaf00;
+}

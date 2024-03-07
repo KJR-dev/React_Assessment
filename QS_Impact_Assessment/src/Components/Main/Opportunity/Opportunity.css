@@ -1,0 +1,30 @@
+.oppDiv {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  width: 100%;
+  justify-content: space-around;
+}
+.leftInnerDiv {
+  margin-right: 2%;
+}
+.rightInnerDiv {
+  margin-left: 2%;
+}
+.image {
+  float: right;
+}
+.oppHeaderDiv {
+  width: 93%;
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.oppHeaderDiv div {
+  width: 80%;
+}
+
+.oppHeaderDiv div p {
+  font-size: 18px;
+}
