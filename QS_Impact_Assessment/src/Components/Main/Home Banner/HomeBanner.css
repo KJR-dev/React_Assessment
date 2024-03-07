@@ -56,16 +56,16 @@ button {
 }
 
 .hero1 {
-  background: url("image/image.jpg");
+  background: url("image/Banner_1.jpg");
 }
 .hero2 {
-  background: url("image/image2.webp");
+  background: url("image/Banner_2.webp");
 }
 .hero3 {
-  background: url("image/image3.webp");
+  background: url("image/Banner_3.webp");
 }
 .hero4 {
-  background: url("image/image4.webp");
+  background: url("image/Banner_4.webp");
 }
 
 .hero {
