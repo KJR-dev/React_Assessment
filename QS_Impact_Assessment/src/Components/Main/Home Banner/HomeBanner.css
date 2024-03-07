@@ -1,0 +1,95 @@
+.wrapper {
+  width: 100%;
+  height: max-content;
+  text-align: center;
+}
+header {
+  padding: 10rem 4rem;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Adjust as needed */
+  gap: 50px;
+  font-size: 26px;
+}
+.container h1,
+.container p {
+  text-align: center;
+}
+.container,
+.buttonDiv,
+button {
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  background-color: #20c7b7;
+  border-color: none;
+}
+.dots {
+  display: flex;
+  width: 75px;
+  justify-content: space-between;
+  margin: 1rem auto 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1rem;
+}
+.dot {
+  background: #666;
+  height: 15px;
+  width: 15px;
+  content: "";
+  border-radius: 50%;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.activeDot {
+  background: #fff;
+}
+
+.hero1 {
+  background: url("image/image.jpg");
+}
+.hero2 {
+  background: url("image/image2.webp");
+}
+.hero3 {
+  background: url("image/image3.webp");
+}
+.hero4 {
+  background: url("image/image4.webp");
+}
+
+.hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s ease-in-out;
+  animation: fade 1s ease-in-out;
+  position: relative;
+  height: 800px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
